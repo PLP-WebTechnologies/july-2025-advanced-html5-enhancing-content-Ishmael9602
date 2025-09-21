@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced HTML5 Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>📘 HTML5 Content & Form Showcase</h1>
+  </header>
+
+  <section>
+    <h2>📋 Favorite Programming Languages</h2>
+    <ul>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>HTML & CSS</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📊 Weekly Learning Schedule</h2>
+    <table border="1">
+      <thead>
+        <tr><th>Day</th><th>Topic</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Monday</td><td>HTML Basics</td></tr>
+        <tr><td>Tuesday</td><td>Forms & Validation</td></tr>
+        <tr><td>Wednesday</td><td>Media Embedding</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>🎧 Sample Audio</h2>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2>🎬 Sample Video</h2>
+    <video controls width="400">
+      <source src="sample.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section>
+    <h2>📝 Registration Form</h2>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required minlength="3" placeholder="John Doe" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="99" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0123456789" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Account Setup</legend>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="5" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6" />
+
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" id="confirm" name="confirm" required minlength="6" />
+
+        <label for="role">Role:</label>
+        <select id="role" name="role" required>
+          <option value="">--Select--</option>
+          <option value="student">Student</option>
+          <option value="lecturer">Lecturer</option>
+          <option value="employer">Employer</option>
+        </select>
+      </fieldset>
+
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EduBridge Demo</p>
+  </footer>
+
+</body>
+</html>
